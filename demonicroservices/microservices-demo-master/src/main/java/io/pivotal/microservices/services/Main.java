@@ -15,14 +15,14 @@ public class Main {
 	public static void main(String[] args) {
 
 		String serverName = "NO-VALUE";
-
+syso
 		switch (args.length) {
 		case 2:
 			// Optionally set the HTTP port to listen on, overrides
 			// value in the <server-name>-server.yml file
 			System.setProperty("server.port", args[1]);
 			// Fall through into ..
-
+xxxxxxxxxxxxxxx
 		case 1:
 			serverName = args[0].toLowerCase();
 			break;
